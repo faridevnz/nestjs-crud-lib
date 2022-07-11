@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "rest-lib": {
+      "type": "library",
+      "root": "libs/rest-lib",
+      "entryFile": "index",
+      "sourceRoot": "libs/rest-lib/src",
+      "compilerOptions": {
+        "tsConfigPath": "./libs/rest-lib/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
